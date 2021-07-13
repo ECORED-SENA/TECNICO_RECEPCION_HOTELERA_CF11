@@ -221,36 +221,57 @@
 
         p.mb-5 Los requisitos que deberán cumplir los nuevos hoteles son los que se encuentran señalados en el artículo 5 del Decreto 2755 de septiembre 30 de 2003, recopilado en el artículo 1.2.1.22.11 del DECRETO 1625 de 2016:
 
-        TabsB.color-acento-contenido
-          .py-4.py-md-5(:icono="require('@/assets/curso/tema_1/img_12.png')")
-            p Debe estar inscrito en el registro nacional de turismo del Ministerio de Comercio, Industria y Turismo (MinCIT)
-          .py-4.py-md-5(:icono="require('@/assets/curso/tema_1/img_13.png')")
-            p Contar con un certificado expedido por el MinCIT, en el que conste la prestación de servicios hoteleros por parte del nuevo hotel.
+        #MapaGroup01
+
+          .row.mb-5
+            .col-lg-3
+              button.ClasePripiaBtn.collapsed(data-bs-toggle='collapse' data-bs-target='#collapse01, #collapse01s' aria-expanded='true' aria-controls='#collapse01, #collapse01s')
+                img.img-a(src='@/assets/curso/tema_1/img_12.svg', alt='')
+              img#collapse01s.img-a.collapse.show(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup01')
+              
+            .col-lg-3
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse02, #collapse02s' aria-expanded='false' aria-controls='#collapse02, #collapse02s')
+                img.img-a(src='@/assets/curso/tema_1/img_13.svg', alt='')
+              img#collapse02s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup01')
+              
+            .col-lg-3
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse03, #collapse03s' aria-expanded='false' aria-controls='#collapse03, #collapse03s')
+                img.img-a(src='@/assets/curso/tema_1/img_14.svg', alt='')
+              img#collapse03s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup01')
+              
+            .col-lg-3
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse04, #collapse04s' aria-expanded='false' aria-controls='#collapse04, #collapse04s')
+                img.img-a(src='@/assets/curso/tema_1/img_15.svg', alt='')
+              img#collapse04s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup01')
             
-          .py-4.py-md-5(:icono="require('@/assets/curso/tema_1/img_14.png')")
+          #collapse01.collapse.show(data-bs-parent='#MapaGroup01')
+            p Debe estar inscrito en el registro nacional de turismo del Ministerio de Comercio, Industria y Turismo (MinCIT)
+          #collapse02.collapse(data-bs-parent='#MapaGroup01')
+            p Contar con un certificado expedido por el MinCIT, en el que conste la prestación de servicios hoteleros por parte del nuevo hotel.
+
+          #collapse03.collapse(data-bs-parent='#MapaGroup01')
             p Certificado expedido por la Curaduría Urbana, Secretaría de Planeación o por la entidad que haga sus veces del domicilio del inmueble. En este, debe constar la aprobación del proyecto de construcción del nuevo hotel.
 
-          .py-4.py-md-5(:icono="require('@/assets/curso/tema_1/img_15.png')")
+          #collapse04.collapse(data-bs-parent='#MapaGroup01')
             p Certificado expedido por representante legal y revisor fiscal o contador público, en el cual conste:
 
-            ul.lista-ul--color
-              li 
-                i.lista-ul__vineta
-                | Que los servicios hoteleros prestados se encuentren debidamente autorizados.
-              li 
-                i.lista-ul__vineta
-                | Que las rentas solicitadas con tarifa del 9% corresponden a servicios hoteleros prestados en nuevos hoteles construidos entre 2017 y 2026.
-              li 
-                i.lista-ul__vineta
-                | Que se lleva contabilidad separada de los ingresos por servicios hoteleros y de los originados por otras actividades. (Actualícese, 2018)
+                ul.lista-ul--color
+                  li 
+                    i.lista-ul__vineta
+                    | Que los servicios hoteleros prestados se encuentren debidamente autorizados.
+                  li 
+                    i.lista-ul__vineta
+                    | Que las rentas solicitadas con tarifa del 9% corresponden a servicios hoteleros prestados en nuevos hoteles construidos entre 2017 y 2026.
+                  li 
+                    i.lista-ul__vineta
+                    | Que se lleva contabilidad separada de los ingresos por servicios hoteleros y de los originados por otras actividades. (Actualícese, 2018)
+
+
 
     p Por otra parte, sobre los beneficios tributarios a las rentas hoteleras, específicamente los que otorgan los numerales 3 y 4 del artículo 207-2 del Estatuto Tributario (ET) es válido mencionar que, con la modificación que sufrió el artículo 240 del ET, los servicios hoteleros prestados en nuevos hoteles y en hoteles remodelados y/o ampliados de personas jurídicas pasaron de ser rentas exentas para ser gravadas con la tarifa del 9%. En el caso de las personas naturales, la DIAN ha manifestado que dichas rentas deberán tratarlas como gravadas y tributar con las tarifas del artículo 241 del Estatuto Tributario. De cualquier manera, es importante mencionar que la normatividad tributaria cambia constantemente y que debe ser revisada y actualizada.        
           
           
 
-
-        
-    Muestras
   
 </template>
 
@@ -258,10 +279,12 @@
 import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
+    mostrarIndicador1: false,
+    mostrarIndicador2: true,
+    display1: true,
+    display2: false,
     // variables de vue
   }),
   mounted() {

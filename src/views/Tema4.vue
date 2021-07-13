@@ -12,6 +12,36 @@
 
     p.mb-5 Las operaciones matemáticas son: 
 
+    .row.justify-content-center.mb-5
+      .col-lg-8
+
+        #MapaGroup01
+          .row.mb-5
+            .col-lg-4
+              button.ClasePripiaBtn.collapsed(data-bs-toggle='collapse' data-bs-target='#collapse01, #collapse01s' aria-expanded='true' aria-controls='#collapse01, #collapse01s')
+                img.img-a(src='@/assets/curso/tema_4/img_5.svg', alt='')
+              img#collapse01s.img-a.collapse.show(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup01')
+              
+            .col-lg-4
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse02, #collapse02s' aria-expanded='false' aria-controls='#collapse02, #collapse02s')
+                img.img-a(src='@/assets/curso/tema_4/img_6.svg', alt='')
+              img#collapse02s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup01')
+              
+            .col-lg-4
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse03, #collapse03s' aria-expanded='false' aria-controls='#collapse03, #collapse03s')
+                img.img-a(src='@/assets/curso/tema_4/img_7.svg', alt='')
+              img#collapse03s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup01')
+              
+            
+          #collapse01.collapse.show(data-bs-parent='#MapaGroup01')
+            p Es posible pensar que este es un tema demasiado sencillo, después de todo hay quien no sabe sumar, ¡verdad!, pero aún así es pertinente tener estas operaciones en cuenta debido a que gran parte del movimiento diario de la caja, se soporta en ellas.
+
+          #collapse02.collapse(data-bs-parent='#MapaGroup01')
+            p Esta operación le será de gran ayuda, en la gestión de grupos. Simplificando grandes series de sumatorias, es también la base de la correcta aplicación de los descuentos expresados en porcentaje, cuya notación corresponde a un valor el cual se multiplica por un %.
+
+          #collapse03.collapse(data-bs-parent='#MapaGroup01')
+            p Esta operación será su principal aliado cuando se le presente el caso de tener dividir una cuenta o un cargo en varias partes. Esta es una situación frecuente en la operación diaria de los hoteles.
+
     .row.justify-content-center
       .col-lg-10
 

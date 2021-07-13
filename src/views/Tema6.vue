@@ -139,7 +139,85 @@
 
     p.mb-5 El Art. 617. Establece los requisitos de la factura de venta para efectos tributarios, la expedición de factura a que se refiere el artículo 615 consiste en entregar el original de esta, con el lleno de los siguientes requisitos:
 
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        #MapaGroup01
+          .row.mb-5
+            .col-lg-4
+              button.ClasePripiaBtn.collapsed(data-bs-toggle='collapse' data-bs-target='#collapse01, #collapse01s' aria-expanded='true' aria-controls='#collapse01, #collapse01s')
+                img.img-a(src='@/assets/curso/tema_6/img_9.svg', alt='')
+              img#collapse01s.img-a.collapse.show(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup01')
+              
+            .col-lg-4
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse02, #collapse02s' aria-expanded='false' aria-controls='#collapse02, #collapse02s')
+                img.img-a(src='@/assets/curso/tema_6/img_10.svg', alt='')
+              img#collapse02s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup01')
+              
+            .col-lg-4
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse03, #collapse03s' aria-expanded='false' aria-controls='#collapse03, #collapse03s')
+                img.img-a(src='@/assets/curso/tema_6/img_11.svg', alt='')
+              img#collapse03s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup01')
 
+          #collapse01.text-center.collapse.show(data-bs-parent='#MapaGroup01')
+            p Está denominada expresamente como factura de venta.
+          #collapse02.text-center.collapse(data-bs-parent='#MapaGroup01')
+            p Apellidos y nombre o razón y NIT del vendedor o de quien presta el servicio.
+
+          #collapse03.text-center.collapse(data-bs-parent='#MapaGroup01')
+            p Apellidos y nombre o razón social y NIT del adquirente de los bienes o servicios, junto con la discriminación del IVA pagado.
+
+        #MapaGroup02
+
+          .row.mb-5              
+            .col-lg-4
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse04, #collapse04s' aria-expanded='false' aria-controls='#collapse04, #collapse04s')
+                img.img-a(src='@/assets/curso/tema_6/img_12.svg', alt='')
+              img#collapse04s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup02')
+
+            .col-lg-4
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse05, #collapse05s' aria-expanded='false' aria-controls='#collapse05, #collapse05s')
+                img.img-a(src='@/assets/curso/tema_6/img_13.svg', alt='')
+              img#collapse05s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup02')
+
+            .col-lg-4
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse06, #collapse06s' aria-expanded='false' aria-controls='#collapse06, #collapse06s')
+                img.img-a(src='@/assets/curso/tema_6/img_14.svg', alt='')
+              img#collapse06s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup02')
+
+          #collapse04.text-center.collapse(data-bs-parent='#MapaGroup02')
+            p Llevar un número que corresponda a un sistema de numeración consecutiva de facturas de venta.
+
+          #collapse05.text-center.collapse(data-bs-parent='#MapaGroup02')
+            p Fecha de expedición.
+
+          #collapse06.text-center.collapse(data-bs-parent='#MapaGroup02')
+            p Descripción específica o genérica de los artículos vendidos o servicios prestados.
+
+        #MapaGroup03
+          .row.mb-5
+            .col-lg-4
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse07, #collapse07s' aria-expanded='false' aria-controls='#collapse07, #collapse07s')
+                img.img-a(src='@/assets/curso/tema_6/img_15.svg', alt='')
+              img#collapse07s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup03')
+
+            .col-lg-4
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse08, #collapse08s' aria-expanded='false' aria-controls='#collapse08, #collapse08s')
+                img.img-a(src='@/assets/curso/tema_6/img_16.svg', alt='')
+              img#collapse08s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup03')
+
+            .col-lg-4
+              button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse09, #collapse09s' aria-expanded='false' aria-controls='#collapse09, #collapse09s')
+                img.img-a(src='@/assets/curso/tema_6/img_17.svg', alt='')
+              img#collapse09s.img-a.collapse(src='@/assets/curso/tema_1/img_16.svg', alt='')(data-bs-parent='#MapaGroup03')
+            
+          #collapse07.text-center.collapse(data-bs-parent='#MapaGroup03')
+            p Valor total de la operación.
+
+          #collapse08.text-center.collapse(data-bs-parent='#MapaGroup03')
+            p El nombre o razón social y el NIT del impresor de la factura.
+
+          #collapse09.text-center.collapse(data-bs-parent='#MapaGroup03')
+            p Indicar la calidad de retenedor del impuesto sobre las ventas.
 
     p.mb-5 Al momento de la expedición de la factura los requisitos de los literales en negrita deberán estar previamente impresos a través de medios litográficos, tipográficos o de técnicas industriales de carácter similar. Cuando el contribuyente utilice un sistema de facturación por computador o máquinas registradoras, con la impresión efectuada por tales medios se entienden cumplidos los requisitos de impresión previa. El sistema de facturación deberá numerar en forma consecutiva las facturas y se deberán proveer los medios necesarios para su verificación y auditoría.
 
