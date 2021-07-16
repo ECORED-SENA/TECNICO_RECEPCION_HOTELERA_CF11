@@ -61,7 +61,7 @@
                 figure
                   img(src='@/assets/curso/tema_4/img_1.png', alt='Un huésped')
               .col-lg-7
-                p Un huésped se acerca a pagar la cuenta e informa que del valor de la habitación su compañía solo le cubre el 70% y el pagará el 30% restante. Adicionalmente, en ese momento el hotel experimenta un corte de energía y usted solo dispone del valor total del alojamiento ($574.000 + IVA) en un informe impreso que se generó de la auditoría.
+                p Un huésped se acerca a pagar la cuenta e informa que del valor de la habitación su compañía solo le cubre el 70% y él pagará el 30% restante. Adicionalmente, en ese momento el hotel experimenta un corte de energía y usted solo dispone del valor total del alojamiento ($574.000 + IVA) en un informe impreso que se generó de la auditoría.
 
 
           .py-4.py-md-5(titulo="PASO 2")
@@ -80,12 +80,12 @@
           .py-4.py-md-5(titulo="PASO 3")
             p Esta notación se lee: si $574.000 equivale al 100%, ¿Cuánto es el 30%? Tomando los valores en diagonal, se multiplica $574.000 por 30 y luego divide ese valor en 100.
 
-            p De esta forma buestra ecuación quedaría de la siguiente manera.
+            p De esta forma nuestra ecuación quedaría de la siguiente manera.
 
             figure.mb-3
               img.img-a(src='@/assets/curso/tema_4/img_3.png', alt='')
 
-            p Al despejar se eliminan los signos porcentuales, y resolviendo la multiplicación, tendremos
+            p Al despejar se eliminan los signos porcentuales, y resolviendo la multiplicación, tenemos
 
             figure.mb-3
               img.img-a(src='@/assets/curso/tema_4/img_4.png', alt='')

@@ -30,14 +30,14 @@
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
-            p Un comerciante de telas vende el metro de tela generó a $9.100  y aplica el 19% del  IVA. 
+            p Un comerciante de telas vende el metro de tela genero a $9.100  y aplica el 19% del  IVA. 
             p.text-center.mb-0 $9.100 x 19% = $1.729
             p.text-center $9.100 + $1.729 = $10.829 
             figure
               img.img-a(src='@/assets/curso/tema_1/img_2.png', alt='telas')
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2")
-            p Un fabricante de sábanas le compra 3 metros de generó por un total de $32.487 IVA incluido. 
+            p Un fabricante de sábanas le compra 3 metros de genero por un total de $32.487 IVA incluido. 
             p Luego de confeccionar los juegos de cama los vende a un hotel por $75.000 IVA incluido. Finalmente, el hotel utiliza las sábanas y vende su servicio de alojamiento por $150.000 + IVA.
             figure
               img.img-a(src='@/assets/curso/tema_1/img_3.png', alt='sábanas')
@@ -82,13 +82,13 @@
                 
                 thead
                   tr
-                    th(colspan=7) 
+                    th(colspan=8) 
                       p
                         strong Impuesto al Valos agregado - IVA
                       p.mb-0 Plurifasico acumulativo o en Cascada
                 tbody    
                   tr.color-tr_1
-                    td 
+                    td(colspan= 2) 
                     td.text-center Costo
                     td.text-center Unidad 30%
                     td.text-center PVP
@@ -96,7 +96,7 @@
                     td.text-center PVP + IVA
                     td.text-center Declara
                   tr.color-tr_1
-                    td Industria productora telas
+                    td(colspan= 2) Industria productora telas
                     td $7.000
                     td $2.100
                     td $9.100
@@ -104,7 +104,7 @@
                     td $10.829
                     td $1.729
                   tr.color-tr_1
-                    td Comerciante de tela
+                    td(colspan= 2) Comerciante de tela
                     td $10.829
                     td $3.249
                     td $14.078
@@ -112,7 +112,7 @@
                     td $16.752
                     td $946
                   tr.color-tr_1
-                    td Confeccionista (Fabrica Sabanas)
+                    td(colspan= 2) Confeccionista (fabrica sabanas)
                     td $16.752
                     td $5.026
                     td $21.778
@@ -120,7 +120,7 @@
                     td $25.916
                     td $1.463
                   tr.color-tr_1
-                    td Hotel (Usa la sabana, pero vende unservicio)
+                    td(colspan= 2) Hotel (usa la sabana, pero vende un servicio)
                     td $25.916
                     td $0
                     td $150.000
@@ -172,7 +172,7 @@
 
         p Las Pick-up cuyo valor FOB (o el equivalente del valor FOB) sea menor de USD $30.000, incluyendo sus accesorios.
 
-        p Motocicletas con motor de émbolo alternativo de cilindrada mayor a 200cc.
+        p Motocicletas con motor de émbolo alternativo de cilindrada mayor a 200 c.c.
         p Yates y otras embarcaciones o barcos de recreo o uso deportivo, incluyendo botes de remo y canoas.
 
         p Servicios de comidas y bebidas en restaurantes y bares.
@@ -187,13 +187,14 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .row.align-items-center
-          .col-lg-8
-            p Nos vamos a centrar en el ítem servicios de comidas y bebidas en restaurantes y bares, profundicemos en el: 
+        .jumbo_5.p-4
+          .row.align-items-center
+            .col-lg-8
+              p Nos vamos a centrar en el ítem servicios de comidas y bebidas en restaurantes y bares, profundicemos en el: 
 
-            p Las comidas preparadas en un hotel o establecimiento de expendio de alimentos y bebidas tienen una tarifa general de impuesto al consumo del 8%. Hay que tener en cuenta la nota que dice “Este impuesto no es aplicable a las actividades de expendio de bebidas y comidas bajo franquicias”. Esto quiere decir es que si el hotel o restaurante funciona bajo el modelo de franquicia (normalmente marcas reconocidas como: Marriott, Hilton, GHL) al expendio de comidas y bebidas en estos establecimientos no se les aplica el 8% de impoconsumo, si no el 19% de la tarifa general del IVA.
-          .col-lg-4
-            img(src='@/assets/curso/tema_1/img_10.png', alt='')
+              p Las comidas preparadas en un hotel o establecimiento de expendio de alimentos y bebidas tienen una tarifa general de impuesto al consumo del 8%. Hay que tener en cuenta la nota que dice “Este impuesto no es aplicable a las actividades de expendio de bebidas y comidas bajo franquicias”. Esto quiere decir es que si el hotel o restaurante funciona bajo el modelo de franquicia (normalmente marcas reconocidas como: Marriott, Hilton, GHL) al expendio de comidas y bebidas en estos establecimientos no se les aplica el 8% de impoconsumo, sino el 19% de la tarifa general del IVA.
+            .col-lg-4
+              img.img-a(src='@/assets/curso/tema_1/img_10.png', alt='')
 
     separador
 
@@ -201,7 +202,7 @@
       #t_1_3.h2 1.3 Impuesto a la renta
 
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3
         img(src='@/assets/curso/tema_1/img_11.png', alt='')
       .col-lg-8
         p Es el impuesto que se genera cuando el patrimonio de una persona tiene un incremento a lo largo de un año. Este tributo rige en todo el país y se cobra sobre los ingresos de las personas naturales y jurídicas. Este gravamen se compone de la renta, las ganancias ocasionales y las remesas, su liquidación es anual y la declaración de renta del año anterior. 
@@ -221,7 +222,7 @@
 
         p.mb-5 Los requisitos que deberán cumplir los nuevos hoteles son los que se encuentran señalados en el artículo 5 del Decreto 2755 de septiembre 30 de 2003, recopilado en el artículo 1.2.1.22.11 del DECRETO 1625 de 2016:
 
-        #MapaGroup01
+        .jumbo_6#MapaGroup01
 
           .row.mb-5
             .col-lg-3

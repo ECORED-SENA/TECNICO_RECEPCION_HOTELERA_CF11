@@ -36,7 +36,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        p Los cargos de huéspedes son obligaciones financieras contraídas con un hotel, estos se consideran un activo para este. Si un huésped paga por adelantado una cuenta, esto es una responsabilidad para el hotel porque el hotel debe devolver el dinero al huésped al finalizar la compra. Veamos cual es el efecto de DÉBITOS y CRÉDITOS, respecto de los activos y los pasivos.
+        p Los cargos de huéspedes son obligaciones financieras contraídas con un hotel, estos se consideran un activo para este. Si un huésped paga por adelantado una cuenta, esto es una responsabilidad para el hotel porque el hotel debe devolver el dinero al huésped al finalizar la compra. Veamos cuál es el efecto de DÉBITOS y CRÉDITOS, respecto de los activos y los pasivos.
 
     .row.justify-content-center.mb-5
       .col-lg-9
@@ -47,8 +47,7 @@
             thead
               tr
                 th(colspan=3) 
-                  p
-                    strong Efecto de debito y crédito, frente a Activos y Pasivos
+                  h4 Efecto de debito y crédito, frente a Activos y Pasivos
             tbody    
               tr.color-tr_1
                 td 

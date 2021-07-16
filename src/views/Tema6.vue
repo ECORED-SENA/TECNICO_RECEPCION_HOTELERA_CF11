@@ -227,7 +227,7 @@
           figure
             img.img-a(src='@/assets/curso/tema_6/img_4.png', alt='')
         .col-lg-8
-          h5 Parágrafo
+          h5 Parágrafo:
           p En el caso de las empresas que venden tiquetes de transporte no será obligatorio entregar el original de la factura. Al efecto, será suficiente entregar copia de esta.
           h5 Parágrafo: 
           p Para el caso de facturación por máquinas registradoras será admisible la utilización de numeración diaria o periódica, siempre y cuando corresponda a un sistema consecutivo que permita individualizar y distinguir de manera inequívoca cada operación facturada, ya sea mediante prefijos numéricos, alfabéticos o alfanuméricos o mecanismos similares.
@@ -325,7 +325,7 @@
       .col-lg-7
         p La división es un proceso que se va a encontrar en el día a día del trabajo de caja. Consiste en pasar cargos de un folio a otro dentro la misma cuenta huésped. Como mencionamos al momento del registro el sistema abre un folio para que se efectúen los cargos del cliente. Pero muchas veces por control de costos o por organización los clientes pedirán que los cargos de alojamiento se facturen aparte de los otros gastos. Esto puede suceder porque la habitación la cubre la empresa y los gastos extras el huésped o por otras razones.
 
-        p En los sistemas informáticos PMS, esta tarea es muy sencilla, ya que solo se debe marcar el cargo y pasarlo a otra ventana (así se conocen los subfolios dentro de la misma cuenta) Si no se utiliza sistema PMS, la tarea será un poco más engorrosa ya que debe hacerse manualmente, y seguro bajo presión de tiempo al momento de la salida.
+        p En los sistemas informáticos PMS, esta tarea es muy sencilla, ya que solo se debe marcar el cargo y pasarlo a otra ventana (así se conocen los subfolios dentro de la misma cuenta) Si no se utiliza sistema PMS, la tarea será un poco más engorrosa, ya que debe hacerse manualmente, y seguro bajo presión de tiempo al momento de la salida.
 
         
 

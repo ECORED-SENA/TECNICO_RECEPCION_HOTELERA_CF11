@@ -197,12 +197,6 @@ export default {
   referencias: [
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
         'Actualícese. (2018). Beneficio tributario para hoteles en municipios con menos de 200.000 habitantes no necesita decreto.  Actualícese.',
       link:
         'https://actualicese.com/beneficio-tributario-para-hoteles-en-municipios-con-menos-de-200-000-habitantes-no-necesita-decreto/',
@@ -245,11 +239,6 @@ export default {
     },
   ],
   glosario: [
-    {
-      termino: 'MoodBoard',
-      significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
-    },
     {
       termino: 'Check out',
       significado:
@@ -312,6 +301,37 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Harbey Enrique Castelblanco',
+        cargo: 'Experto técnico',
+        centro: 'Centro Nacional Colombo Alemán',
+      },
+      {
+        nombre: 'Leidy Carolina Arias Aguirre',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de diseño y metrología',
+      },
+      {
+        nombre: 'Paola Moya Peralta',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
+      },
+      {
+        nombre: 'Vilma Perilla Méndez',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlved',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisora de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
     ],
     desarrolloProducto: [
       {
@@ -326,25 +346,20 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Oscar Ivan Uribe Ortiz'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Ricardo Alonso González Vargas',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Magdi Khalifah Gamboa',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -8,7 +8,7 @@
         span 3
       h1 Políticas de manejo de caja
 
-    p.mb-5 Las políticas son los preceptos que establecen normas, procedimientos y comportamientos que deben tener los empleados. En el caso del manejo de caja es muy seguro que cada empresa hotelera tenga sus propias políticas, es recomendable que los empleados de recepción y los directamente responsables de la caja las tengan totalmente claras
+    p.mb-5 Las políticas son los preceptos que establecen normas, procedimientos y comportamientos que deben tener los empleados. En el caso del manejo de caja es muy seguro que cada empresa hotelera tenga sus propias políticas, es recomendable que los empleados de recepción y los directamente responsables de la caja las tengan totalmente claras.
 
     .row.mt-5
       .col-lg-12
@@ -46,7 +46,7 @@
           #t_3_2.h2 3.2 Saldos elevados
 
         p Es una política administrativa, que previene posibles fraudes por pagos. Es responsabilidad del auditor nocturno revisar a diario los huéspedes y sus respectivas garantías, con el fin de determinar los casos en los cuales el saldo excede el valor límite autorizado por la política del hotel.
-      .col-lg-1
+      .col-lg-1.d-sm-none.d-lg-block
         .verticalLine
       
       .col-lg-5
@@ -92,7 +92,7 @@
               p.mb-0.text-center El arqueo contable y el 
               p.text-center arqueo físico #[strong coinciden].
 
-            .col-lg-1.mb-5
+            .col-lg-1.mb-5.d-sm-none.d-lg-block
               .verticalLine_1
             .col-lg-5
               figure.mb-2

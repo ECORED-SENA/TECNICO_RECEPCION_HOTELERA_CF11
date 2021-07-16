@@ -37,7 +37,7 @@
           .tarjeta.jumbo_1
             .p-4
               h4  Créditos
-              p relaciona los descargos a la cuenta huésped como efecto de la cancelación de facturas, considerando básicamente efectivo, tarjetas de crédito o débito, divisas y particulares. Las columnas de descuento y depósito aplican como crédito al aplicarles dichas situaciones. (Scheel, 1992)
+              p Relaciona los descargos a la cuenta huésped como efecto de la cancelación de facturas, considerando básicamente efectivo, tarjetas de crédito o débito, divisas y particulares. Las columnas de descuento y depósito aplican como crédito al aplicarles dichas situaciones. (Scheel, 1992)
 
     p Cuando el hotel cuenta con un sistema de administración, PMS, esté hace el cálculo automático de los saldos de la cuenta huésped y genera un reporte de auditoría que detalla el balance.
 
@@ -94,7 +94,7 @@
                     td.text-center IVA sobre la comisión, que es lo que cobra el hotel 
                     td.text-center $ 380
                   tr.color-tr_1
-                    td.text-center Total cargo del huésped
+                    td.text-center Total a cargo del huésped
                     td.text-center $ 22.380
       .row.justify-content-center(titulo="Avance en efectivo")
         .col-lg-2
@@ -178,7 +178,7 @@
       li 
         .lista-ol--cuadro__vineta
           span 2
-        h5 Soportes de débito
+        h5 Soportes de crédito
 
     p.mb-5 Los movimientos créditos o abonos a la cuenta huésped se realizan por los siguientes conceptos:
 
