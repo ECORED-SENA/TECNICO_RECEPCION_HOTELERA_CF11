@@ -34,8 +34,8 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/6KYDDCnCVhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      
 
     figure.mb-5
       img.img-a(src='@/assets/curso/tema_3/img_2.png', alt='Normatividad tributaria')
@@ -46,7 +46,7 @@
           #t_3_2.h2 3.2 Saldos elevados
 
         p Es una política administrativa, que previene posibles fraudes por pagos. Es responsabilidad del auditor nocturno revisar a diario los huéspedes y sus respectivas garantías, con el fin de determinar los casos en los cuales el saldo excede el valor límite autorizado por la política del hotel.
-      .col-lg-1.d-sm-none.d-lg-block
+      .col-lg-1.d-sm-none.d-lg-block.d-sm-none
         .verticalLine
       
       .col-lg-5
@@ -92,7 +92,7 @@
               p.mb-0.text-center El arqueo contable y el 
               p.text-center arqueo físico #[strong coinciden].
 
-            .col-lg-1.mb-5.d-sm-none.d-lg-block
+            .col-lg-1.mb-5.d-sm-none.d-lg-block.d-sm-none
               .verticalLine_1
             .col-lg-5
               figure.mb-2
