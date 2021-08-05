@@ -183,11 +183,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -277,7 +272,8 @@ export default {
       texto:
         'Ángel Simón, M. (2016). Recepción: Front Office. Fundación Proturismo. ',
       tipo: 'PDF',
-      descarga: '/downloads/prueba.pdf',
+      link:
+        'https://login.bdigital.sena.edu.co/login?url=https://elibro.net/es/ereader/senavirtual/78933?page=83&page=71',
     },
     {
       texto:
